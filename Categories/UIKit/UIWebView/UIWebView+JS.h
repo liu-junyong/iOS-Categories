@@ -25,7 +25,7 @@
 #pragma mark -
 #pragma mark 改变网页样式和行为
 /// 改变背景颜色
-- (void) setBackgroundColor:(UIColor *)color;
+- (void) setBackgroundColorByJS:(UIColor *)color;
 /// 为所有图片添加点击事件(网页中有些图片添加无效)
 - (void) addClickEventOnImg;
 /// 改变所有图像的宽度
