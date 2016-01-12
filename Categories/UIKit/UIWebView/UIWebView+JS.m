@@ -53,7 +53,7 @@
 #pragma mark -
 #pragma mark 改变网页样式和行为
 /// 改变背景颜色
-- (void)setBackgroundColor:(UIColor *)color
+- (void)setBackgroundColorByJS:(UIColor *)color
 {
     NSString * jsString = [NSString stringWithFormat:@"document.body.style.backgroundColor = '%@'",[color webColorString]];
     [self stringByEvaluatingJavaScriptFromString:jsString];
